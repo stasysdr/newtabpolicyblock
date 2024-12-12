@@ -1,0 +1,20 @@
+// ==UserScript==
+// @name         New Tab Sora
+// @namespace    http://tampermonkey.net/
+// @version      2024-12-11
+// @description  try to take over the world!
+// @author       Me SD
+// @match        edge://newtab/
+// @match        https://sorainen.sharepoint.com/
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @grant        none
+// @run-at       document-start
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    window.stop();
+    window.open("http://www.google.com", "_self");
+
+    // Your code here...
+})();
